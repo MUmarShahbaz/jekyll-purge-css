@@ -6,3 +6,9 @@ Style/StringLiterals:
 
 Style/StringLiteralsInInterpolation:
   EnforcedStyle: double_quotes
+
+Layout/EndOfLine:
+  Enabled: false
+
+Naming/FileName:
+  Enabled: false
