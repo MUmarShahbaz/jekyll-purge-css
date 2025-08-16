@@ -12,3 +12,6 @@ Layout/EndOfLine:
 
 Naming/FileName:
   Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
