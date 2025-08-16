@@ -8,8 +8,14 @@ Gem::Specification.new do |spec|
   spec.authors = ["M. Umar Shahbaz"]
   spec.email = ["m.umarshahbaz.2007@gmail.com"]
 
-  spec.summary = "Post build PurgeCSS"
-  spec.description = "Automatically run PurgeCSS post jekyll build internally through the jekyll site config"
+  spec.summary = "Automatically remove unused CSS from Jekyll sites after build using PurgeCSS."
+  spec.description = <<~DESC
+    jekyll-purge-css is a Jekyll plugin that runs PurgeCSS after
+    your site is built, cleaning up unused CSS based on your#{" "}
+    site's content and configuration. This helps optimize your#{" "}
+    site's performance and reduce CSS file size, all managed#{" "}
+    seamlessly through your Jekyll configuration.
+  DESC
   spec.homepage = "https://github.com/MUmarShahbaz/jekyll-purge-css"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.2.0"
